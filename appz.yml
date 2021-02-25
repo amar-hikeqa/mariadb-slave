@@ -5,7 +5,7 @@ app:
 
 build:
     version: 10.4
-    env: D@
+    env: D
     build_file: none
     output_files: output/*.zip
     image_template: mariadb_slave-10.4
