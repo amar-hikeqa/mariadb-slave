@@ -6,8 +6,8 @@ app:
 build:
     version: 10.4
     env: DEV
-    build_file: 
-    output_files: output/*.zip
+    build_file: none
+    output_files: output/*.zi
     image_template: mariadb_slave-10.4
 
 deploy:
