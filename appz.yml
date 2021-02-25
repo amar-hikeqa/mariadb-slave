@@ -23,8 +23,8 @@ volumes:
     name: data
     size: 5Gi
   - claim: mariadb-slave-backup
-    mount: /appz/bac
-    name: backup
+    mount: /appz/backup
+    name: backu
     size: 5Gi
 
 properties:
