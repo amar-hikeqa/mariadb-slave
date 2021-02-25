@@ -15,10 +15,10 @@ deploy:
     type: statefulset
     replicas: 1
     port:
-    - 3
+    - 3306
 
 volumes:
-  - claim: mariadb-slave-data
+  - claim: mariadb-slave
     mount: /appz/data
     name: data
     size: 5Gi
