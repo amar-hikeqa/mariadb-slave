@@ -21,8 +21,8 @@ volumes:
   - claim: mariadb-slave-data
     mount: /appz/data
     name: data
-    size: 5G
-  - claim: mariadb-slave-backup
+    size: 5Gi
+  - claim: mariadb-slave-ba
     mount: /appz/backup
     name: backup
     size: 5Gi
