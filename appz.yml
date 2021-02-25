@@ -11,8 +11,8 @@ build:
     image_template: mariadb_slave-10.4
 
 deploy:
-    context: amar-hikeqa/DE
-    type: statefulset
+    context: amar-hikeqa/DEV
+    type: statefulse
     replicas: 1
     port:
     - 3306
