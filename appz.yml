@@ -24,8 +24,8 @@ volumes:
     size: 5Gi
   - claim: mariadb-slave-backup
     mount: /appz/backup
-    name: backu
-    size: 5Gi
+    name: backup
+    size: 5G
 
 properties:
     MYSQL_REPLICATION_USER: replication
