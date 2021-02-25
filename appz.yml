@@ -13,9 +13,9 @@ build:
 deploy:
     context: amar-hikeqa/DEV
     type: statefulset
-    replicas: 
+    replicas: 1
     port:
-    - 3306
+    - 3
 
 volumes:
   - claim: mariadb-slave-data
