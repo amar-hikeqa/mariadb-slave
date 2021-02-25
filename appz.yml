@@ -1,5 +1,5 @@
 app:
-    name: 
+    name: mariadb Slave
     code: mariadbslave
     notify: amaregouda@hikeqa.com
 
