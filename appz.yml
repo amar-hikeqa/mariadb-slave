@@ -4,8 +4,8 @@ app:
     notify: 
 
 build:
-    version: 
-    env: DEV
+    version: 10.4
+    env: D@
     build_file: none
     output_files: output/*.zip
     image_template: mariadb_slave-10.4
