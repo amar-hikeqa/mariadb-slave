@@ -18,8 +18,8 @@ deploy:
     - 3306
 
 volumes:
-  - claim: mariadb-slave
-    mount: /appz/data
+  - claim: mariadb-slave-data
+    mount: /appz/da
     name: data
     size: 5Gi
   - claim: mariadb-slave-backup
