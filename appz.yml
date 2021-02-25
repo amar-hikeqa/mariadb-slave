@@ -7,8 +7,8 @@ build:
     version: 10.4
     env: DEV
     build_file: none
-    output_files: output/*.zi
-    image_template: mariadb_slave-10.4
+    output_files: output/*.zip
+    image_template: mariadb_slave-1
 
 deploy:
     context: amar-hikeqa/DEV
