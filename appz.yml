@@ -12,8 +12,8 @@ build:
 
 deploy:
     context: amar-hikeqa/DEV
-    type: statefulse
-    replicas: 1
+    type: statefulset
+    replicas: 
     port:
     - 3306
 
