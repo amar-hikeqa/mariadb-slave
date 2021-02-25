@@ -1,7 +1,7 @@
 app:
     name: mariadb Slave
-    code: 
-    notify: amaregouda@hikeqa.com
+    code: mariadbslave
+    notify: 
 
 build:
     version: 10.4
