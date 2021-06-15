@@ -28,6 +28,7 @@ volumes:
     size: 5Gi
 
 properties:
+    revision : 27
     MYSQL_REPLICATION_USER: replication
     MYSQL_REPLICATION_PASSWORD:
       vault: MYSQL_REPLICATION_PASSWORD
@@ -36,4 +37,4 @@ properties:
     MYSQL_ROOT_PASSWORD:
       vault: MYSQL_ROOT_PASSWORD_KEY
     DB_MASTER: mariadb-master-10-4
-    revision : 27
+    
