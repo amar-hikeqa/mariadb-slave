@@ -28,7 +28,7 @@ volumes:
     size: 5Gi
 
 properties:
-    revision : 28222
+    revision : 28
     MYSQL_REPLICATION_USER: replication
     MYSQL_REPLICATION_PASSWORD:
       vault: MYSQL_REPLICATION_PASSWORD
